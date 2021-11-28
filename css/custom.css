@@ -176,7 +176,7 @@ line-height: 30px;
 	width: 33.33333333%;
 }
 .sec-2 , .sec-3{
-	background-color:#c7c1ca66;
+	/*background-color:#c7c1ca66;*/
 	padding: 25px 0px;
 }
 
@@ -197,7 +197,6 @@ border-radius: 20px;
 	background: -webkit-linear-gradient(#0E2B55, #0069FF);
     -webkit-background-clip: text;
     font-weight: 700;
-    font-family: chocolate-bar-demo-regular;
     -webkit-text-fill-color: transparent;
 	
 /*font-style: normal;
@@ -323,12 +322,13 @@ letter-spacing: 0.04em;
 	margin: 0 10%;
 }
 .footer {
-	 background-image:url('../images/Fotter.png');
+	 background-image:url('../images/footerbg.png');
 	 background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	background-color: #0c0c43;
+	background-color: #254C84;
 	padding: 40px 0px;
+
 }
 .fot-text{
 	font-family: chocolate-bar-demo-regular;
@@ -339,7 +339,8 @@ letter-spacing: 0.04em;
 .footer-icon {
 	padding: 18px;
     border-radius: 10px;
-    background: linear-gradient(to right, #ff9933 0%, #ff99ff 100%);
+    /*background: linear-gradient(to right, #ff9933 0%, #ff99ff 100%);*/
+    background: #0069FF;
 	margin-right: 6%;
 }
 .fa {
@@ -362,7 +363,7 @@ letter-spacing: 0.04em;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #c5c1c1;
+    /*background-color: #c5c1c1;*/
     background-clip: border-box;
 	border-radius: 8px;
 }
@@ -372,7 +373,9 @@ letter-spacing: 0.04em;
 }
 
 .card-footer {
-	background-color: #c0f;
+	/*background-color: #c0f;*/
+	background: linear-gradient(97.2deg, #254C84 -8.04%, #3F8EFF 113.14%);
+
     border-radius: 8px;
 }
 .dwn-wp {
@@ -402,7 +405,7 @@ letter-spacing: 0.04em;
 	float: right;
 }
 .bor-bt {
-	border-bottom: 2px solid #d90aff;
+	border-bottom: 2px solid #FFFFFF;
 }
 .mrg-top-21 {
     margin-top: 21px;
