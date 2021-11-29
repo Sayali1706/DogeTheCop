@@ -909,13 +909,14 @@ border-radius: 24px;
 {
 	background-color: #254C84;
 	color: white;
+	border-radius: 20px;
 }
 .card-text li{
- padding: 1px;
+ padding: 5px;
 }
 
 .card-header {
-
+border-radius: 20px;
   font-family: a Abrushow;
 font-style: normal;
 font-weight: normal;
@@ -925,5 +926,5 @@ letter-spacing: 0.04em;
 text-transform: capitalize;
   background: #DCDCDC;
   color: #FA9B27;
-
+text-align: center;
 }
