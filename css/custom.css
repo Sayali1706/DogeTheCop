@@ -105,6 +105,10 @@ li {
 	margin-top: 3%;
 }
 
+#tokimg {
+	text-align: center;
+}
+
 #cs{
 	color: #FA9B27;
 	font-family: a Abrushow;
@@ -287,7 +291,7 @@ height: 40px;
 .sec-7{
 	padding-top:5%;
 	padding-bottom:5%;
-	    background-color: #c7c1ca66;
+	    background-color: #F8FBFF;
 }
 .gra-text {
 	font-size: 30px;
@@ -442,10 +446,20 @@ line-height: 34px;
 }
 .text-sec4 {
     padding: 3px;
+    text-align: center;
     position: relative;
     /*margin: 80px 0 0 0;*/
     z-index: 1;
+    	border: 2px solid #FA9B27;
+box-sizing: border-box;
+border-radius: 24px;
 }
+
+/*#sec4{
+	border: 2px solid #FA9B27;
+box-sizing: border-box;
+border-radius: 24px;
+}*/
 .navbar-inverse .navbar-toggle {
 	    background-color: #000;
 }
@@ -801,4 +815,115 @@ line-height: 34px;
     font-size: 2rem;
     text-align: center;
 }
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list {
+  padding: 0 100px;
+}
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li + li {
+  margin-top: 15px;
+}
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #76b5ee;
+}
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+.faq .faq-list .icon-show {
+  display: none;
+}
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+.faq .faq-list a.collapsed:hover {
+  color: #1977cc;
+}
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+.section-bg {
+    /*background-color: #f1f7fd;*/
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+}
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+.card-body
+{
+	background-color: #254C84;
+	color: white;
+}
+.card-text li{
+ padding: 1px;
+}
+
+.card-header {
+
+  font-family: a Abrushow;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 51px;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+  background: #DCDCDC;
+  color: #FA9B27;
+
 }
