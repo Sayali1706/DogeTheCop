@@ -1,16 +1,16 @@
   @font-face {
-    font-family: Georama-Italic-VariableFont_wdth;
-    src: url(../Font/Georama-Italic-VariableFont_wdth,wght.ttf);
+    /*font-family: Georama-Italic-VariableFont_wdth;*/
+    /*src: url(../Font/Georama-Italic-VariableFont_wdth,wght.ttf);*/
 }
   @font-face {
-    font-family: Georama-VariableFont_wdth;
-    src: url(../Font/Georama-VariableFont_wdth,wght.ttf);
+    /*font-family: Georama-VariableFont_wdth;*/
+    /*src: url(../Font/Georama-VariableFont_wdth,wght.ttf);*/
 }
  
 
  @font-face{
-    font-family:chocolate-bar-demo-regular;
-	src: url(../Font/chocolate-bar-demo.regular.otf);
+    /*font-family:chocolate-bar-demo-regular;*/
+	/*src: url(../Font/chocolate-bar-demo.regular.otf);*/
  }
  html {
 	 overflow-x: hidden;
@@ -25,7 +25,7 @@
   .
   
  .choco_bar{
-	 font-family:chocolate-bar-demo-regular;
+	 /*font-family:chocolate-bar-demo-regular;*/
  } 
 .sticky {
     position: fixed;
@@ -58,7 +58,7 @@ li {
 }
 .nav>li>a {
 	padding: 20px 0px;
-	font-family:Georama-VariableFont_wdth;
+	/*font-family:Georama-VariableFont_wdth;*/
 }
 .active>a{
 	color: #FFFFFF;
@@ -195,7 +195,7 @@ line-height: 30px;
 }
 .so-text {
 	font-size: 20px;
-    font-family: chocolate-bar-demo-regular;
+    /*font-family: chocolate-bar-demo-regular;*/
     
 }
 .wel-4{
@@ -341,7 +341,7 @@ line-height: 34px;
     font-size: 15px;
     color: #000;
     display: flex;
-    font-family: 'Georama-VariableFont_wdth';
+    /*font-family: 'Georama-VariableFont_wdth';*/
     font-weight: lighter;
     line-height: 24px;
 }
@@ -365,7 +365,7 @@ line-height: 34px;
 
 }
 .fot-text{
-	font-family: chocolate-bar-demo-regular;
+	/*font-family: chocolate-bar-demo-regular;*/
     font-size: 45px;
     color: #FFF;
 	padding-bottom: 25px;
