@@ -808,11 +808,7 @@ text-align: center;
 	.wel-btn {
 		    padding-top: 5px;
 	}
-	.footer-icon {
-    padding: 10px;
-	    margin-right: 2%;
 	
-	}
 	.fa , .fab{
     position: initial;
     font-size: 20px;
@@ -827,6 +823,16 @@ text-align: center;
 	.sd-img {
     width: 20%;
 	}
+
+	.copyright-text, .privacy {
+		text-align: center;
+		float: none;
+	}
+	
+	/*.footer-icon {
+    padding: 10px;
+	    margin-right: 2%;
+	}*/
 }
 @media only screen and (min-device-width: 375px) and  (max-device-width: 424px) {
 	.sec-1 {
@@ -848,16 +854,26 @@ text-align: center;
 	.wel-btn {
 		    padding-top: 5px;
 	}
-	.footer-icon {
+	/*.footer-icon {
 		padding: 9px;
 		margin-right: 0%;	
+	}*/
+	.card-footer{
+      margin-top: 10px;
+      text-align: center;
 	}
-	.discord {
+	.foot-card{
+        padding-top: 70px;
+	}
+	.footer-icon {
+    padding: 25px;
+	}
+	/*.discord {
 		width:10%;
-	}
-	.mobile-res {
+	}*/
+	/*.mobile-res {
     padding-top: 10%;
-	}
+	}*/
 	.sd-img {
     width: 20%;
 	}
@@ -901,6 +917,7 @@ text-align: center;
 	.sd-img {
     width: 20%;
 	}
+
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px)  {
 
