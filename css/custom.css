@@ -766,6 +766,14 @@ text-align: center;
 	text-align: center;
 }
 */
+
+.sticky {
+	z-index: 99;
+}
+
+.wel {
+	margin-top: 40px;
+}
 	#welimg{
 		height: 200px;
 		display: block;
