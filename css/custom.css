@@ -349,6 +349,10 @@ padding: 16px 28px;
 	padding-bottom:5%;
 	background-color: #F8FBFF;
 }
+
+#hide1{
+	display: none;
+}
 .gra-text 
 {
 	font-size: 30px;
@@ -771,7 +775,7 @@ text-align: center;
 
 	.wel-pup {
 		text-align: center;
-		font-size: 20px;
+		font-size: 30px;
 	}
 
 	.wel-para, .wel-para1, .wel-btn {
@@ -781,6 +785,28 @@ text-align: center;
 
 	.img-sec2 img{
 		width: 200px;
+	}
+
+	.gra-text {
+		font-size: 20px;
+	}
+
+   .seen-pup {
+   	font-size: 30px;
+   }
+
+#hide1{
+	display: block;
+}
+   #show1 {
+   	display: none;
+}
+	.btn-p{
+		text-align: center;
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 	}
 
 	#sec3Img {
