@@ -965,6 +965,7 @@ font-size: 10px;
 
 .navimg{
 	float: left;
+	width: 300px;
 }
 
 .navimg img{
