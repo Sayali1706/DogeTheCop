@@ -168,6 +168,16 @@ li
     letter-spacing: 0.04em;
 }
 
+.colimg1 {
+	margin-left: 50%;
+}
+.colimg2 {
+	margin-left: 20%;
+}
+.colimg3 {
+	margin-left: -20%;
+}
+
 #buy
 {
  	transform: rotate(-13deg) !important;
@@ -315,12 +325,12 @@ margin-top: 2%;
 }
 .img-sec2 
 {
-	padding: 30px 70px;	
+	padding: 20px 70px;	
 }
 .img-sec2 img 
 {
 width: 175.75px;
-height: 58.45px;
+/*height: 58.45px;*/
 }
 .set-width 
 {
@@ -926,6 +936,16 @@ text-align: center;
 .ora-text {
 	font-size: 20px;
 	line-height: 33px;
+}
+
+.colimg1 {
+	margin-left: 0% !important;
+}
+.colimg2 {
+	margin-left: 0% !important;
+}
+.colimg3 {
+	margin-left: 0% !important;
 }
 
 /*#welcol{
