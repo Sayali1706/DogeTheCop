@@ -944,9 +944,9 @@ text-align: center;
 .colimg2 {
 	margin-left: 0% !important;
 }
-.colimg3 {
+/*.colimg3 {
 	margin-left: 0% !important;
-}
+}*/
 
 /*#welcol{
 	text-align: center;
@@ -987,7 +987,8 @@ text-align: center;
 }
 
 	.img-sec2 img{
-		width: 180px;
+		height: 33px;
+		/*width: 180px;*/
 		display: block;
   margin-left: auto;
   margin-right: auto;
